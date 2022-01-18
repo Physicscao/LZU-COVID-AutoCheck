@@ -45,7 +45,7 @@ def getSubmit(auToken, dailyCookie, info, FilledInfo):
         "zcwd": "0.0", # 早晨温度(体温)
         "zwwd": "0.0", # 中午温度(体温)
         "wswd": "0.0", # 晚上温度(体温)
-        "sbr": info_data['sbr'], # 上报人
+        "sbr": "曹延涛", # 上报人
         "sjd": info['data']['sjd'], # 时间段
         "initLng": "", # 初始经度/定位ip?（似乎暂未启用，后续可能会启用）
         "initLat": "", # 初始纬度/定位地址?（似乎暂未启用，后续可能会启用）
